@@ -47,7 +47,7 @@ const Login = () => {
           type="submit"
           onClick={async () => {
             const result = await axios.post(
-              "http://localhost:3010/user/login",
+              "https://course-backend-kelj.onrender.com/user/login",
               {
                 email,
                 password,

@@ -15,7 +15,7 @@ const SignUp = () => {
     }
 
     axios
-      .post("http://localhost:3010/user/signup", {
+      .post("https://course-backend-kelj.onrender.com/user/signup", {
         name: name,
         email: email,
         password: password,
